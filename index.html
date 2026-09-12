@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7c3aed" />
+  <title>Tangkap Bintang ⭐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">GAME ANAK</p>
+        <h1>Tangkap Bintang ⭐</h1>
+        <p class="subtitle">Ketuk bintang sebanyak mungkin sebelum waktunya habis!</p>
+      </div>
+      <button id="soundBtn" class="icon-btn" aria-label="Nyalakan atau matikan suara">🔊</button>
+    </section>
+
+    <section class="hud" aria-label="Informasi permainan">
+      <div class="stat"><span>Skor</span><strong id="score">0</strong></div>
+      <div class="stat"><span>Waktu</span><strong id="time">30</strong></div>
+      <div class="stat"><span>Level</span><strong id="level">1</strong></div>
+    </section>
+
+    <section id="game" class="game-board" aria-label="Area permainan">
+      <div id="message" class="message">
+        <div class="card">
+          <div class="big-star">⭐</div>
+          <h2>Siap bermain?</h2>
+          <p>Tangkap bintang yang muncul. Semakin cepat, semakin tinggi skormu!</p>
+          <button id="startBtn" class="primary-btn">Mulai Bermain</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tips">
+      <span>💡 Tips:</span> bintang bergerak lebih cepat setiap naik level.
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
