@@ -13,8 +13,6 @@ on:
 permissions:
   contents: read
 
-authorizations: {}
-
 jobs:
   build-apk:
     runs-on: ubuntu-latest
