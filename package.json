@@ -7,14 +7,15 @@
     "android:add": "npx cap add android",
     "android:sync": "npx cap sync android",
     "android:open": "npx cap open android",
-    "android:build": "npx cap sync android && cd android && ./gradlew assembleDebug"
+    "android:build": "npx cap sync android && cd android && ./gradlew assembleDebug",
+    "android:build:release": "npx cap sync android && cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
-    "@capacitor/android": "8.4.2",
-    "@capacitor/core": "8.4.2"
+    "@capacitor/android": "8.5.1",
+    "@capacitor/core": "8.5.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "8.4.2"
+    "@capacitor/cli": "8.5.1"
   },
   "engines": {
     "node": ">=22"
